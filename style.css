@@ -1,0 +1,97 @@
+body {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-color: #87CEEB;
+    width: 100%;
+    height: 5em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.right, .left {
+    display: flex;
+    width: 50%;
+}
+
+.left > ul, .right > ul {
+    display: flex;
+    font-size: 1.5rem;
+    color: white;
+    list-style-type: none;
+    margin-left: -1em;
+}
+
+.left > ul {
+    margin-left: auto;
+    margin-right: 2.5em;
+}
+
+
+
+.left > ul > li, .right > ul > li {
+    display: flex;
+    margin-left: 1em;
+    cursor: pointer;
+    align-items: center;
+}
+
+.left > ul > li:hover, .right > ul > li:hover {
+    color: #FF6B00;
+}
+
+.left > ul > li > img {
+    height: 30px;
+    width: auto;
+    margin-right: 0.5em;
+}
+
+.restaurant-name {
+    width: 100%;
+    height: 6em;
+    color: #87CEEB;
+    text-align: center;
+    border-bottom: 2px solid #87CEEB;
+}
+
+.second-header {
+    display: flex;
+    justify-content: center;
+    color: #87CEEB;
+    height: 3em;
+}
+
+.second-header > ul {
+    display: flex;
+    list-style-type: none;
+    width: 50%;
+    justify-content: space-between;
+}
+
+.second-header > ul > li {
+    cursor: pointer;
+}
+
+.second-header > ul > li:hover {
+    color: #FF6B00;
+}
+
+.content {
+    background-color: #131313;
+    color: white;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+p {
+    margin: 3em;
+}
